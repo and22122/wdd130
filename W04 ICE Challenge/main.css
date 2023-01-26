@@ -1,0 +1,59 @@
+body {
+    background-color: lightgray;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a {
+    font-size: 2em;
+    font-weight: 600;
+    display: block;
+}
+
+a:hover {
+    color: black;
+}
+
+#quote1 {
+    font-size: 0.75em;
+}
+
+#quote2 {
+    font-weight: bold;
+}
+
+div {
+    color: black;
+}
+
+.pseudolist {
+    font-weight: bold;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+#mainquote {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#quote3 {
+    color: white;
+    font-family: serif;
+    font-size: 2em;
+}
+
+.accreditation {
+    font-size: 12px;
+    width: 85%;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
