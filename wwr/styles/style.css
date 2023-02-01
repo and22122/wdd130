@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Oswald:wght@300&display=swap');
+
 #background {
     background-color: #C7D3DC;
     height: 725px;
@@ -5,12 +7,20 @@
 
 body {
     background-color: #FFFFFF;
+    font-family: "Mukta", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .book, .join {
     background-color: #C7D3DC;
     color: #073B4C;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -22,6 +32,10 @@ body {
     text-align: center;
 }
 
+.card-img {
+    border: solid black 10px;
+}
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -30,6 +44,8 @@ body {
 footer {
     background-color: #C7D3DC;
     color: #396E94;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -49,8 +65,16 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 header {
     background-color: #FFD166;
+}
+
+h2 {
+    margin: 0px;
 }
 
 h4 {
@@ -67,38 +91,60 @@ h4 {
 
 .home-title {
     color: #396E94;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .msg {
     background-color: #FFD166;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #EF476F;
+    font-family: "Oswald", Arial, sans-serif;
 }
 .msg p {
     color: #8B9D9D;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 nav a {
     color: #073B4C;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #06D6A0;
     color: #FFFFFF;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0px;
 }

@@ -1,5 +1,10 @@
-h1 {
-    text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    max-width: 90%;
 }
 
 img {
@@ -8,6 +13,22 @@ img {
     display: block;
 }
 
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
 nav a {
     text-decoration: none;
+    padding: 10px;
+    background-color: #cccccc;
+    margin: 5px;
+    display: inline-block;
+    border: lightgray 3px outset;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    padding: 30 px;
 }
