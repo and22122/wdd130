@@ -1,0 +1,21 @@
+.activitybody {
+    display: grid;
+    grid-template-columns: 2fr 7fr 2fr 7fr 2fr;
+    text-align: left;
+}
+
+.activitybody h3 {
+    text-align: center;
+}
+
+.leftbox {
+    grid-column: 2/3;
+}
+
+li {
+    text-align: left;
+}
+
+.rightbox {
+    grid-column: 4/5;
+}
