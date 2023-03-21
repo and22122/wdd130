@@ -1,3 +1,38 @@
+
+.activity {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 4fr 1fr;
+    grid-template-rows: 40px 20px 140px;
+
+    margin: 20px;
+}
+
+.activity div a {
+    text-decoration: none;
+    color: black;
+}
+
+.actDesc {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.actHeading {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.actImg {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.actImg img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,4 +121,8 @@ h1 {
     grid-row: 2/3;
     height: 60px;
     width: 100%;
+}
+.navbox div a {
+    color: #000000;
+    text-decoration: none;
 }
