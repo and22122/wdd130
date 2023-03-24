@@ -19,3 +19,7 @@ li {
 .rightbox {
     grid-column: 4/5;
 }
+
+video {
+    max-width: 80%;
+}
