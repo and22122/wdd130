@@ -36,6 +36,7 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
 }
 
 #current {
@@ -63,12 +64,21 @@ footer a {
 }
 
 footer p {
-    line-height: 0.5em;
+    line-height: 1.2em;
 }
 
 h1 {
     font-weight: bold;
     font-size: 32px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+main {
+    max-width: 80%;
+    margin: 0px auto;
 }
 
 .main3 p {
@@ -121,8 +131,4 @@ h1 {
     grid-row: 2/3;
     height: 60px;
     width: 100%;
-}
-.navbox div a {
-    color: #000000;
-    text-decoration: none;
 }
